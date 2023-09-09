@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body{
+        background-color: rgb(253, 247, 247)
+        
+    }
+    header{
+        color: black;
+    }
+    
+    header h1 {      
+        margin: 0;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    .contact-info {
+        display: none;
+      }
+      img{
+        align-items:flex-end
+      }
+      /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    
+    color:black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+      
+</style>
+<body>
+  <div id="background-image"></div> 
+</body>
+</html>
+</head>
+<body>
+    <header>
+         <h1 id="header" ><b>My portfolio
+       
+        <div id="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZHL7rItwX303kN5bY9DbOeJ7YfSkomaAU9LBi8m6FsOy84m-DxqpALmj7CrXhUPlbFfM&usqp=CAU">
+        </div>
+        
+    
+        <nav>
+            <ul>
+                <li><a href="#about"><b>About</b></a></li>
+                <li><a href="#skills"><b>Skills</b></a></li>
+                <li><a href="#portfolio"><b>Portfolio</b></a></li>
+                <li><a href="#contact"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm Kathyayini Kamath, student at SMVITM.
+            I'm passionate about coding, and I thrive on litsening to Tech talks.
+        </p>
+        <p>
+            Throughout my educational journey I've been an enthusiastic learner, I believe in honesty and hardwork.
+        </p>
+        <p>
+            When I'm not working, you can find me painting.
+        </p>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <p>Programming languages</p>
+        <p>C,C++,JAVA,PYTHON</p>
+    </section>
+
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="project">
+            <img src="data:image/png;base64,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" alt="Project 1">
+            <h2>Graph plotter</h2>
+            <p>A graph plotter which plots graph in accordance with user input values</p>
+            <p>Calculates slope and draws regression line for the points </p>
+        </div>
+        <div class="project">
+            <img src="data:image/png;base64,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" alt="Project 2">
+            <h2>Temperature converter</h2>
+            <p>A Temperature converter which converts temperature in different forms eg:kelvin to celcius</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>You can reach me at: kathyayini123@gmail.com</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Kathyayini Kamath</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
